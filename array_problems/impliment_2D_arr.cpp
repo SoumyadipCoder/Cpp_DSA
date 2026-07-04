@@ -29,7 +29,10 @@ int main(){
 	for(int i=0;i<3;i++){
 		for(int j=0;j<2;j++){
 			if(arr[j][i]==target){
-				cout<<"element is present";
+				cout<<"Element is present";
+			}
+			else{
+				cout<<"Element is not present";
 			}
 		}
 	}
