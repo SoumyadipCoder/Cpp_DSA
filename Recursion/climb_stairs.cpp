@@ -26,4 +26,5 @@ int main(){
 	cout<<"Enter no of stairs:-";
 	cin>>number;
 	cout<<"number of distinct ways"<<count_stair(number);
+	return 0;
 }
