@@ -12,7 +12,7 @@ bool check_arr_sort(int *arr,int size,int i){
 	if(arr[i]<arr[i-1]){
 		return false;
 	}
-	check_arr_sort(arr,size,i+1);
+	return check_arr_sort(arr,size,i+1);
 }
 
 void print_result(int *arr,int size){
